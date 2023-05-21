@@ -15,7 +15,7 @@ C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51962
+52278
 Successfully changed project path to: C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
 C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [114740] Host "[IP] 192.168.85.84 [Port] 0 [Flags] 2 [Guid] 2210901703 [EditorId] 2210901703 [Version] 1048832 [Id] WindowsEditor(7,PC_de_Juan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [141996] Host "[IP] 192.168.85.84 [Port] 0 [Flags] 2 [Guid] 1249316861 [EditorId] 1249316861 [Version] 1048832 [Id] WindowsEditor(7,PC_de_Juan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [114740] Host "[IP] 192.168.85.84 [Port] 0 [Flags] 2 [Guid] 2210901703 [EditorId] 2210901703 [Version] 1048832 [Id] WindowsEditor(7,PC_de_Juan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [141996] Host "[IP] 192.168.85.84 [Port] 0 [Flags] 2 [Guid] 1249316861 [EditorId] 1249316861 [Version] 1048832 [Id] WindowsEditor(7,PC_de_Juan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 53.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,52 +67,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004014 seconds.
+Registered in 0.003729 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 168 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
+- Completed reload, in  0.628 seconds
 Domain Reload Profiling:
-	ReloadAssembly (690ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (628ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (557ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (409ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (378ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (249ms)
+				InitializePlatformSupportModulesInManaged (241ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003891 seconds.
+Registered in 0.002715 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -120,32 +120,32 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
+- Completed reload, in  0.652 seconds
 Domain Reload Profiling:
-	ReloadAssembly (678ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (536ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (509ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,13 +153,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (341.3 KB). Loaded Objects now: 3514.
-Memory consumption went from 112.6 MB to 112.3 MB.
-Total: 2.120600 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.703500 ms  DeleteObjects: 0.088300 ms)
+Memory consumption went from 112.7 MB to 112.3 MB.
+Total: 2.079400 ms (FindLiveObjects: 0.186300 ms CreateObjectMapping: 0.084600 ms MarkObjects: 1.745800 ms  DeleteObjects: 0.061900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,474 +172,612 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002781 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.681 seconds
-Domain Reload Profiling:
-	ReloadAssembly (682ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (512ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (186ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3517.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 1.646500 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.407900 ms  DeleteObjects: 0.046900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 38950.679519 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b00_f01.png
+  artifactKey: Guid(dc4364eceedfb65458e7390114a846ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b00_f01.png using Guid(dc4364eceedfb65458e7390114a846ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cb1bc24a6a3e4c9f037938666bec76') in 0.076177 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002567 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
-Domain Reload Profiling:
-	ReloadAssembly (665ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (504ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (204ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3520.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 2.627300 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.256600 ms  DeleteObjects: 0.098100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream00_alb.png
+  artifactKey: Guid(cb8466c817938234985ab31acc5987cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream00_alb.png using Guid(cb8466c817938234985ab31acc5987cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e6305252756973d7f5945b04b17e0a') in 0.007940 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003069 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
-Domain Reload Profiling:
-	ReloadAssembly (645ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (486ms)
-			LoadAssemblies (56ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (200ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.7 KB). Loaded Objects now: 3523.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 1.762600 ms (FindLiveObjects: 0.146100 ms CreateObjectMapping: 0.069700 ms MarkObjects: 1.493900 ms  DeleteObjects: 0.052300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard02_alb.png
+  artifactKey: Guid(fe70f6a4c89d3404bb5ef98ba374264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard02_alb.png using Guid(fe70f6a4c89d3404bb5ef98ba374264d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff820b1378960f5a6558c5ba8a57349') in 0.007219 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002690 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
-Domain Reload Profiling:
-	ReloadAssembly (643ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (192ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.7 KB). Loaded Objects now: 3526.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 1.868000 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.100600 ms MarkObjects: 1.556400 ms  DeleteObjects: 0.068500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_step00_nrm.png
+  artifactKey: Guid(0fba47a89d3b5a849be118ed3f833607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_step00_nrm.png using Guid(0fba47a89d3b5a849be118ed3f833607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bef926b929676d12c937e5ab7b0221') in 0.008111 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003043 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
-Domain Reload Profiling:
-	ReloadAssembly (636ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (188ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3529.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 1.663400 ms (FindLiveObjects: 0.155700 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.379800 ms  DeleteObjects: 0.054600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_esboard00_alb.png
+  artifactKey: Guid(5d13259250a84ca479b5a70dfcacd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_esboard00_alb.png using Guid(5d13259250a84ca479b5a70dfcacd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd8b9c5272b543ff2a7ad781331b7b9') in 0.008239 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002598 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
-Domain Reload Profiling:
-	ReloadAssembly (654ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (499ms)
-			LoadAssemblies (56ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (201ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3532.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 1.961800 ms (FindLiveObjects: 0.157500 ms CreateObjectMapping: 0.105600 ms MarkObjects: 1.637000 ms  DeleteObjects: 0.060800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f00.png
+  artifactKey: Guid(7eaa7879882639d4d8f3a36a8b062eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f00.png using Guid(7eaa7879882639d4d8f3a36a8b062eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2af021778f8e70b79969230be11756') in 0.010863 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003217 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
-Domain Reload Profiling:
-	ReloadAssembly (634ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (481ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (186ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (37ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3535.
-Memory consumption went from 112.0 MB to 111.9 MB.
-Total: 1.747000 ms (FindLiveObjects: 0.150000 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.473700 ms  DeleteObjects: 0.057900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/cmnstartgrid1_nrm.png
+  artifactKey: Guid(f50e928a279bb5c4eb50b557a954a2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/cmnstartgrid1_nrm.png using Guid(f50e928a279bb5c4eb50b557a954a2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591f6f431f599b7c17ceffb490a317ab') in 0.008225 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002485 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
-Domain Reload Profiling:
-	ReloadAssembly (653ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (496ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (196ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3045 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3538.
-Memory consumption went from 112.0 MB to 112.0 MB.
-Total: 1.714500 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.067900 ms MarkObjects: 1.441700 ms  DeleteObjects: 0.057600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_roof00_alb.png
+  artifactKey: Guid(44ec334d57818f84eb26cf29776fde2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_roof00_alb.png using Guid(44ec334d57818f84eb26cf29776fde2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34098b68e8d1a0c621ddd0abc48fda0') in 0.011084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.0.png
+  artifactKey: Guid(a25e8580b98b75e4badf88796e6e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.0.png using Guid(a25e8580b98b75e4badf88796e6e48f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd4ac7d93bd25a868e6f0f2fb8e6cbe') in 0.008880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream03_spm.png
+  artifactKey: Guid(487405b71a6667c4e927eb075177e884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream03_spm.png using Guid(487405b71a6667c4e927eb075177e884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac2033deb47d778322b6df7b700b509') in 0.008926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/cmnstartgrid1_alb.png
+  artifactKey: Guid(74f12ab13c644794c944d80b08595102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/cmnstartgrid1_alb.png using Guid(74f12ab13c644794c944d80b08595102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5589995bf1a6ad99f54bfd8861e4b5ca') in 0.010060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.2.png
+  artifactKey: Guid(fd8d7b6a49810324c94e093e962ab206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.2.png using Guid(fd8d7b6a49810324c94e093e962ab206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9435d5c49457a0c4ae30eb9aee33a990') in 0.010609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete03_nrm.png
+  artifactKey: Guid(e254c4732015b484a8c1159e5a18ef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete03_nrm.png using Guid(e254c4732015b484a8c1159e5a18ef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef2b42a2684386caf6c0ecd36e8ec3') in 0.009935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_projecter_light_alb.png
+  artifactKey: Guid(649b278b1379edd4b94fba238abf65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_projecter_light_alb.png using Guid(649b278b1379edd4b94fba238abf65fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0079f1b87005a4bf2073273585a40e1') in 0.008806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron02_spm.png
+  artifactKey: Guid(a9a48126cad82654192972e4761efad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron02_spm.png using Guid(a9a48126cad82654192972e4761efad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba470cedf77f45568831744ecef8a7e3') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream02_spm.png
+  artifactKey: Guid(e2011b513f65f9949b988d0eaa014f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream02_spm.png using Guid(e2011b513f65f9949b988d0eaa014f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d963028c7e87055822465a8bd0cbf8') in 0.008670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_road00_spm.png
+  artifactKey: Guid(8a0147b9e9431364c94e504b47737386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_road00_spm.png using Guid(8a0147b9e9431364c94e504b47737386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5dce556387b14ba7f7d5d5b08a01e9') in 0.008690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.6.png
+  artifactKey: Guid(08abc3e6e4cdf8a4f8673ce7b688b450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.6.png using Guid(08abc3e6e4cdf8a4f8673ce7b688b450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4e2c6dbe60de67c359571f17cd3faf') in 0.008460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete02_nrm.png
+  artifactKey: Guid(7c132131bde38ad4d9034b5244eccc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete02_nrm.png using Guid(7c132131bde38ad4d9034b5244eccc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e4a73d1243a88b5eb240376d7950a1') in 0.008273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wind01_alb.png
+  artifactKey: Guid(18b18eb7b29b73341b488a1ddc6d4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wind01_alb.png using Guid(18b18eb7b29b73341b488a1ddc6d4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8676e5716b12334910a97ad91a1f3db6') in 0.009338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_brigeroad00_alb.png
+  artifactKey: Guid(ae4d2fd9b04f98f4f94d523ba1f886d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_brigeroad00_alb.png using Guid(ae4d2fd9b04f98f4f94d523ba1f886d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6a34d2a59f90018755994198cea3ac') in 0.012369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron00_alb.png
+  artifactKey: Guid(830089537e82f9c478ecb1f76a66b019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron00_alb.png using Guid(830089537e82f9c478ecb1f76a66b019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde5039a68aeb883a1a8944caf7d6e34') in 0.008901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_mud00_nrm.png
+  artifactKey: Guid(019a28b244b2aea42a1caf64e94c420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_mud00_nrm.png using Guid(019a28b244b2aea42a1caf64e94c420e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec64c7d3563ef5fbdfa6397307675037') in 0.010943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream00_emm.png
+  artifactKey: Guid(4e9ecd30c685c9c40ba778e3e8104d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream00_emm.png using Guid(4e9ecd30c685c9c40ba778e3e8104d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81598a628d9a7b74941b9524e72c2b6') in 0.009847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_seat00_nrm.png
+  artifactKey: Guid(80b5779ed5a2c3c448203b117d705a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_seat00_nrm.png using Guid(80b5779ed5a2c3c448203b117d705a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c529f82ddd9608921ee3243f36cd891') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.4.png
+  artifactKey: Guid(f441d58d2c93a6840bc49d68f3e0abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.4.png using Guid(f441d58d2c93a6840bc49d68f3e0abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135b1ef03d0416cab6e8f71507d5a893') in 0.010181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard03_alb.png
+  artifactKey: Guid(03d71de290cd0cf4e8af19b35387d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard03_alb.png using Guid(03d71de290cd0cf4e8af19b35387d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be599dc19511a036df58dd44ade58fc9') in 0.008849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_step00_alb.png
+  artifactKey: Guid(0703722825b94b24e8df6742b3daaefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_step00_alb.png using Guid(0703722825b94b24e8df6742b3daaefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a6373ffbc49e1bc64020dc58e00de0') in 0.009027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_esboard00_emm.png
+  artifactKey: Guid(c6fe505e0965d994bb5938e7e75f8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_esboard00_emm.png using Guid(c6fe505e0965d994bb5938e7e75f8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c0aaa05ae62d1b84fc69e8da37935c') in 0.008284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_dirt00_nrm.png
+  artifactKey: Guid(a4eb1d9f0358f3740a2aaa4a5dd9b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_dirt00_nrm.png using Guid(a4eb1d9f0358f3740a2aaa4a5dd9b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304b79848b677c5a0eb9f73c752cf256') in 0.010383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron01_alb.png
+  artifactKey: Guid(86a25285cebee384ca8cb3d508c6b386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron01_alb.png using Guid(86a25285cebee384ca8cb3d508c6b386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a50df0ea0f861004a0a733b1486834') in 0.009491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron00_spm.png
+  artifactKey: Guid(dbca7ec3f8b6f68449c6d8b3e20ebaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron00_spm.png using Guid(dbca7ec3f8b6f68449c6d8b3e20ebaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85767d51f9a69fee5ea4fd11ee34ad8') in 0.011874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_mud00_spm.png
+  artifactKey: Guid(4adcb3cade858e5479d41dda2e95525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_mud00_spm.png using Guid(4adcb3cade858e5479d41dda2e95525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1270ce6b44f19fb5b7f99a024ac62f0') in 0.008989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f03.png
+  artifactKey: Guid(9d6fb19116a5c8c4594e4014e4bcbed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f03.png using Guid(9d6fb19116a5c8c4594e4014e4bcbed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05430ee7a2d76f1f334f6b0f52378e57') in 0.010499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_jump00_nrm.png
+  artifactKey: Guid(f068807865898b14fac2317192bace69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_jump00_nrm.png using Guid(f068807865898b14fac2317192bace69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd79acae643ac5fe889d718379d074') in 0.009329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_jump00_alb.png
+  artifactKey: Guid(69df87fb97c0ff64d8f99b033909b468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_jump00_alb.png using Guid(69df87fb97c0ff64d8f99b033909b468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66498270f09c19cdda330e7e07b054a') in 0.009776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard02_spm.png
+  artifactKey: Guid(1426caa934eeb8f4390d89e733235ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard02_spm.png using Guid(1426caa934eeb8f4390d89e733235ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fcb3a8d1fd8b1c2799737c7a995b44') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f04.png
+  artifactKey: Guid(db0bc428fda2efd47b282476617c23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f04.png using Guid(db0bc428fda2efd47b282476617c23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236a40d04ac48f1acc6c75183e2bfba4') in 0.010202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard01_spm.png
+  artifactKey: Guid(994a85897766245408bc0e27a7f820ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard01_spm.png using Guid(994a85897766245408bc0e27a7f820ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a006818561095542a8204ddf5ade2702') in 0.008960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_mud00_alb.png
+  artifactKey: Guid(871f48241f2e4534586eb65e32f97a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_mud00_alb.png using Guid(871f48241f2e4534586eb65e32f97a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074fd33bad1f925e05e86e13885e9d27') in 0.009053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b00_f04.png
+  artifactKey: Guid(be8abe71d0853b64e84e67a6ab859088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b00_f04.png using Guid(be8abe71d0853b64e84e67a6ab859088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8fcfdbd38d857945fa92efbe5c60da') in 0.010395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete02_alb.png
+  artifactKey: Guid(c4e764b93db003548b4586633f1adf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete02_alb.png using Guid(c4e764b93db003548b4586633f1adf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3a2d96f51c165717ee7cd0fa066697') in 0.008703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b00_f03.png
+  artifactKey: Guid(d0d506842c665cd4fb74d9db4a393b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b00_f03.png using Guid(d0d506842c665cd4fb74d9db4a393b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468a9c8cc71aaf1b4022162d951cedf3') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.1.png
+  artifactKey: Guid(e9a7fa060841a2647801aadf90e1c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_gallery_00_alb.1.png using Guid(e9a7fa060841a2647801aadf90e1c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be12cca36a0d645d543230990ff57573') in 0.008882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard01_nrm.png
+  artifactKey: Guid(f85b61ec9b701164a888485aeae21a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard01_nrm.png using Guid(f85b61ec9b701164a888485aeae21a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45475149892d88fb9ae544ccdd840fa4') in 0.008481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_warioboard00_nrm.png
+  artifactKey: Guid(6d7fef4c8ef547943bf0a20c7dde1b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_warioboard00_nrm.png using Guid(6d7fef4c8ef547943bf0a20c7dde1b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282ba1a92a5993fa373e29a77745d2ef') in 0.008603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_net_01_alb.png
+  artifactKey: Guid(1fcc60dc9e5640e47a5f3446d9a97082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_net_01_alb.png using Guid(1fcc60dc9e5640e47a5f3446d9a97082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1921e1ab35a411b481d23a3f417be36') in 0.008173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron02_nrm.png
+  artifactKey: Guid(f819bd1373faad644adc83faee63690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron02_nrm.png using Guid(f819bd1373faad644adc83faee63690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd491e2d7065e176feebad9088d0df3') in 0.007554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete01_alb.png
+  artifactKey: Guid(f0b2221dd9405194f99bd180eef3c0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_concrete01_alb.png using Guid(f0b2221dd9405194f99bd180eef3c0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e4f34e1a5151d3a733ab4c328408c5') in 0.010002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_gate_nrm.png
+  artifactKey: Guid(f149ec8904534bd4ca19b21ab39bdacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_gate_nrm.png using Guid(f149ec8904534bd4ca19b21ab39bdacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3534b35ce376fa24b97c3f1ceaf5b33e') in 0.008944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream03_nrm.png
+  artifactKey: Guid(39686e2768e67624983c0a7b7bef18ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream03_nrm.png using Guid(39686e2768e67624983c0a7b7bef18ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e42bcd82c90d28d183f7852c827a22') in 0.009928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron01_spm.png
+  artifactKey: Guid(7f5e5ba41bc253141bdd5541de8564bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron01_spm.png using Guid(7f5e5ba41bc253141bdd5541de8564bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63da392b1c6b6be5f000b9d71096394') in 0.010798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_step00_spm.png
+  artifactKey: Guid(b3f0d97e03be5894281c3713574c1537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_step00_spm.png using Guid(b3f0d97e03be5894281c3713574c1537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f839d5aab30e3c88d78921a4c9e6530') in 0.012908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_net_01_nrm.png
+  artifactKey: Guid(8190349cfbda3354798a03f836367ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_net_01_nrm.png using Guid(8190349cfbda3354798a03f836367ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad86710915a725a790a91ef9e48c0a4') in 0.010113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_gate_spm.png
+  artifactKey: Guid(e5e6242199e7b8847b7b035a9e39eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ot_gate_spm.png using Guid(e5e6242199e7b8847b7b035a9e39eba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de079fd5f2350647d0b933884a46ac1') in 0.010133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_warioboard00_spm.png
+  artifactKey: Guid(45928a8bce8ddb349b587de05127c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_warioboard00_spm.png using Guid(45928a8bce8ddb349b587de05127c569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55412fadeb1436ac9a150f5add187832') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron02_alb.png
+  artifactKey: Guid(6d2af81cb2ee25e41b9686db8cc47a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron02_alb.png using Guid(6d2af81cb2ee25e41b9686db8cc47a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8c32645dbae3ae512a27e479a3a597') in 0.011396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_warioface00_spm.png
+  artifactKey: Guid(50211bd7ecde52d499ef2b06be195507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_warioface00_spm.png using Guid(50211bd7ecde52d499ef2b06be195507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f7330b1b9efeff88399b1a4d18ab0') in 0.011542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron03_nrm.png
+  artifactKey: Guid(fd5ef0aa3ca13ad4e9cca036f0c48e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_iron03_nrm.png using Guid(fd5ef0aa3ca13ad4e9cca036f0c48e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a630e260835ec6e45738796b95aaac02') in 0.010748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_stand00_spm.png
+  artifactKey: Guid(82d44700965a06543b4a7a9606e5c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_stand00_spm.png using Guid(82d44700965a06543b4a7a9606e5c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf127cdb4af2587dc6ba22fe3b0b482e') in 0.009734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream03_alb.png
+  artifactKey: Guid(47651d543f2c4764faf6d26a4fcc43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_fream03_alb.png using Guid(47651d543f2c4764faf6d26a4fcc43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ed63fb41a41551f6a244f8876c6fe') in 0.011645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard00_spm.png
+  artifactKey: Guid(867239e53e5b89f419388d872477431a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard00_spm.png using Guid(867239e53e5b89f419388d872477431a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094537b13529ad6496439ee8c4b547e1') in 0.010216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_esboard00_nrm.png
+  artifactKey: Guid(4aec9fc22ec593e45920b409c205f7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_esboard00_nrm.png using Guid(4aec9fc22ec593e45920b409c205f7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5293ebf13a964e820c3cd09d4d566e7f') in 0.011824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f02.png
+  artifactKey: Guid(e2f2382904433c44984b1bfe7352ee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/bake_gds_wariostadium_g00_b01_f02.png using Guid(e2f2382904433c44984b1bfe7352ee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b1cc3811f92681a698c5245b0f8f6b') in 0.013562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_seat00_alb.png
+  artifactKey: Guid(a04a3cda46aa59543b4906ca311e840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_seat00_alb.png using Guid(a04a3cda46aa59543b4906ca311e840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfa5c33457f11db309b6bb4b6a06d36') in 0.010331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wall00_alb.png
+  artifactKey: Guid(b2a97370d9a6d0d47947f7ec4ce4ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wall00_alb.png using Guid(b2a97370d9a6d0d47947f7ec4ce4ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28fa0422b7f837ef7beac6ddef23737') in 0.010343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard01_alb.png
+  artifactKey: Guid(8f2a97a6f1997b24aa977eca21abe2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_signboard01_alb.png using Guid(8f2a97a6f1997b24aa977eca21abe2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f76bf213f78089d1de04d8c4d2ebb1') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.543689 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wind02_alb.png
+  artifactKey: Guid(38a79c63fc9397a4da1aab388a58a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wind02_alb.png using Guid(38a79c63fc9397a4da1aab388a58a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fc1871b97f86a03b43934a1216d3b1') in 0.008009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_startglide_alb.png
+  artifactKey: Guid(82a2ff4c0625d3b4485a2f65f15c5d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_startglide_alb.png using Guid(82a2ff4c0625d3b4485a2f65f15c5d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5deb6d3a32f230903f6c739ed4badd0') in 0.008157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wirenet00_spm.png
+  artifactKey: Guid(f5d5cfdf16e211d42a9640fbdcbdea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wirenet00_spm.png using Guid(f5d5cfdf16e211d42a9640fbdcbdea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5003da018f52088b6079b2eba159599a') in 0.010710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_staertgateballoon_spm.png
+  artifactKey: Guid(d9dea69b897d5cb41ad0c418aeb492dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_staertgateballoon_spm.png using Guid(d9dea69b897d5cb41ad0c418aeb492dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56239584e0eab7f1616570bd30f5224') in 0.010183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wirenet00_nrm.png
+  artifactKey: Guid(db58794d7d6cd9547921ce7015c1beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_ry_wirenet00_nrm.png using Guid(db58794d7d6cd9547921ce7015c1beda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4690f8947b6e63c61fda1af45a2247') in 0.009605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_staertgateballoon_nrm.png
+  artifactKey: Guid(b81b5cf82fb82c34a8224a706f8c4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_staertgateballoon_nrm.png using Guid(b81b5cf82fb82c34a8224a706f8c4344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cff09bceadc9a3a8f385aee650ad42') in 0.010023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_staertgate_emm.png
+  artifactKey: Guid(a56a7e546da656f46a5824ec46a68813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_staertgate_emm.png using Guid(a56a7e546da656f46a5824ec46a68813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7690f71df35a7eff96dc775abf0926a') in 0.009331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_startglide2_alb.png
+  artifactKey: Guid(02f3abf8c285fa340a0c814bec9de1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/dsws_startglide2_alb.png using Guid(02f3abf8c285fa340a0c814bec9de1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b1455af9f28f7dc5148e2a4bf7ff33') in 0.010214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.364283 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ef_dashboard_nrm.png
+  artifactKey: Guid(5daac847ac30b29489fd06c481e0ad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ef_dashboard_nrm.png using Guid(5daac847ac30b29489fd06c481e0ad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7d4e45a416f686cdc45c0e8a194660') in 0.009104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.7.png
+  artifactKey: Guid(39d72d4aa0ef3f54cb078202c0427521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.7.png using Guid(39d72d4aa0ef3f54cb078202c0427521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5957bd1700d864d93bcbaa22721044') in 0.009884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ef_waterlineb_alb.png
+  artifactKey: Guid(0b01bd93ecf3aae48ae5fd00424f87e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ef_waterlineb_alb.png using Guid(0b01bd93ecf3aae48ae5fd00424f87e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae12f76667b1c379a1b2325d9108ff8') in 0.009727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.19.png
+  artifactKey: Guid(522c61e6c47df1246ad6ce8f4a599555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.19.png using Guid(522c61e6c47df1246ad6ce8f4a599555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d52e955e9f74dca9159d4b92e3b6005') in 0.011883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.16.png
+  artifactKey: Guid(16888dbf7b8b7ae4fb9828af119bc1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.16.png using Guid(16888dbf7b8b7ae4fb9828af119bc1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7f4f08bae5e03858922c264a663815') in 0.009019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.27.png
+  artifactKey: Guid(6b695246cf9e7c447b46d3534c12f5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.27.png using Guid(6b695246cf9e7c447b46d3534c12f5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8314b29d1fc8cceb48abddd1ba22af7') in 0.010267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.25.png
+  artifactKey: Guid(12a299df47fa5cf40b0d2453e918ff80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.25.png using Guid(12a299df47fa5cf40b0d2453e918ff80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75676e7516569646e6dcfa89f49f39d2') in 0.009349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.22.png
+  artifactKey: Guid(2f3009a005b12984bb916de8e432ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.22.png using Guid(2f3009a005b12984bb916de8e432ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31fcf24bc59ba9defa174c2f28f5d1b') in 0.010822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.35.png
+  artifactKey: Guid(c91087338e0851f40b97db2d331a7394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.35.png using Guid(c91087338e0851f40b97db2d331a7394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20442b43b402537e812a5a9534324bb') in 0.009669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.42.png
+  artifactKey: Guid(6c145e71df3684646ae66bd232a2ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.42.png using Guid(6c145e71df3684646ae66bd232a2ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dbb4e0a443146750dba58c24bd47aa') in 0.009794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.44.png
+  artifactKey: Guid(1583facf5e753a64da4073c605e3ace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.44.png using Guid(1583facf5e753a64da4073c605e3ace5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d419410797cac814e731a7e5ec2c3e') in 0.009356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.48.png
+  artifactKey: Guid(0372840330943694cbd1d8c670d82bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.48.png using Guid(0372840330943694cbd1d8c670d82bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cf89ea4a5ffdf523649a7153407d32') in 0.009462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ef_gravitypanell_alb.png
+  artifactKey: Guid(c1eba1b1668c7d6458673512353c7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ef_gravitypanell_alb.png using Guid(c1eba1b1668c7d6458673512353c7cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e063fa77b263be8035a4416ee0fc53ca') in 0.010997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.36.png
+  artifactKey: Guid(1580d71b7dce7ee4a9dca110e93c884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.36.png using Guid(1580d71b7dce7ee4a9dca110e93c884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbbc678f5b064b16f8e096eb9f14f59') in 0.010992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.23.png
+  artifactKey: Guid(f473613771426e94aadc804ccb7189fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.23.png using Guid(f473613771426e94aadc804ccb7189fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec1ef79bf5165cc0fdacb40a1b8069d') in 0.011019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.34.png
+  artifactKey: Guid(23a5acc7be61c7c4d87da48a9ea49984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/mktv.34.png using Guid(23a5acc7be61c7c4d87da48a9ea49984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ad759db81a23367fc376dfa61aade5') in 0.009761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594754 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/panelflame_alb.png
+  artifactKey: Guid(2a6a1f93a3a85b248bba41f262c33670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/panelflame_alb.png using Guid(2a6a1f93a3a85b248bba41f262c33670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf5335b501c32b6270671fcdcab1630') in 0.010963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ufc_tent_spm.png
+  artifactKey: Guid(ac029e4d32588a54bae3c19b37f94053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/ufc_tent_spm.png using Guid(ac029e4d32588a54bae3c19b37f94053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01922b8030ff12476ac669773c6a018') in 0.009860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/tv_pixel2_alb.png
+  artifactKey: Guid(6adf4500c7ef9fc4eaed18ae8b6e08d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/Wii U - Mario Kart 8 - DS Wario Stadium/tv_pixel2_alb.png using Guid(6adf4500c7ef9fc4eaed18ae8b6e08d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c10119ae8453a7e11f5d8a29e6129a') in 0.007418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 327.429393 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/grass.png
+  artifactKey: Guid(bf39cd34cbf28bf43a7afd80b5148533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/grass.png using Guid(bf39cd34cbf28bf43a7afd80b5148533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b10369ade892e090fb8b3ee30d1cf5f') in 0.009970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002711 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/kan1.png
+  artifactKey: Guid(8727260170cf42e4384ce24c18a73b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/kan1.png using Guid(8727260170cf42e4384ce24c18a73b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59ea2ca5d0ea72afbbd5c7af35820aa') in 0.009390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/nr_128_256.png
+  artifactKey: Guid(09bf5aca3c302864cbbcb1be3507d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/nr_128_256.png using Guid(09bf5aca3c302864cbbcb1be3507d809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbd736d7d9fd02386a8ec22c95f3bb4') in 0.010117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/sky_tx1.png
+  artifactKey: Guid(23751dd265eeff447a9eaa8b842b83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/sky_tx1.png using Guid(23751dd265eeff447a9eaa8b842b83c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d9c8e12fca66caf53001a0f789080a') in 0.008172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/woods.png
+  artifactKey: Guid(bc35bb2073a28144a9f88302889b75b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/woods.png using Guid(bc35bb2073a28144a9f88302889b75b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e7472df4d0f282b699c7b797ae55f5') in 0.008597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/RidgeV.obj
+  artifactKey: Guid(3aa7a590865387c4d8e17b0742dbf56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/RidgeV.obj using Guid(3aa7a590865387c4d8e17b0742dbf56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93305fd7663262b465ae5c6a24cb413') in 0.074011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/nr_128_256c.png
+  artifactKey: Guid(073b73d4fc0b8ea4abb20b729667b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Mapas/DS DSi - Mario Kart DS - Shroom Ridge/ridge_course/nr_128_256c.png using Guid(073b73d4fc0b8ea4abb20b729667b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df442d940225e9824b5352aca35ea94') in 0.008434 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
