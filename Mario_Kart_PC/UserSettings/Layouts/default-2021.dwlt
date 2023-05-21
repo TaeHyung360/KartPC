@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 50
+  controlID: 94
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -146,14 +146,14 @@ MonoBehaviour:
     y: 768
     width: 1955
     height: 531
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 95
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 96
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,21 +344,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e590000
-    m_LastClickedID: 22846
+    m_SelectedIDs: 5e590000
+    m_LastClickedID: 22878
     m_ExpandedIDs: 000000003e5900004059000042590000445900004659000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -412,9 +412,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 6c570000
+    m_LastClickedInstanceID: 22380
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000004a10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff
+      m_SelectedIDs: 6c570000
+      m_LastClickedID: 22380
+      m_ExpandedIDs: 22fbffff34fbffff6c570000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -802,9 +802,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.502533, y: 3.43581, z: 58.587513}
+    m_Target: {x: 7.43699, y: 2.0632527, z: 52.619152}
     speed: 2
-    m_Value: {x: 6.502533, y: 3.43581, z: 58.587513}
+    m_Value: {x: 7.43699, y: 2.0632527, z: 52.619152}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -851,13 +851,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.02152612, y: -0.0835666, z: -0.0017867975, w: 0.9962486}
+    m_Target: {x: 0.06770904, y: 0.68645763, z: 0.06442814, w: -0.7211151}
     speed: 2
-    m_Value: {x: -0.02152654, y: -0.08356822, z: -0.0017868322, w: 0.996268}
+    m_Value: {x: 0.067710176, y: 0.6864691, z: 0.064429216, w: -0.72112715}
   m_Size:
-    m_Target: 1.8467854
+    m_Target: 0.002343326
     speed: 2
-    m_Value: 1.8467854
+    m_Value: 0.002343326
   m_Ortho:
     m_Target: 0
     speed: 2

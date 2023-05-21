@@ -161,6 +161,11 @@ CapsuleCollider:
   m_Height: 0.3
   m_Direction: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &94967909 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4965874914265776010, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
+  m_PrefabInstance: {fileID: 359182273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &104415979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4851008743123692578, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
@@ -322,6 +327,11 @@ MonoBehaviour:
   frontWheelMeshes:
   - {fileID: 104415984}
   - {fileID: 855992934}
+  allWheelMeshes:
+  - {fileID: 104415984}
+  - {fileID: 855992934}
+  - {fileID: 94967909}
+  - {fileID: 2033330812}
 --- !u!1001 &359182273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1980,6 +1990,11 @@ CapsuleCollider:
   m_Height: 0.3
   m_Direction: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &2033330812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6173481112548307615, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
+  m_PrefabInstance: {fileID: 359182273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2098126959
 PrefabInstance:
   m_ObjectHideFlags: 0

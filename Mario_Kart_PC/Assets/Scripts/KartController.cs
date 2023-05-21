@@ -12,6 +12,8 @@ public class KartController : MonoBehaviour
 
     public Transform[] frontWheelMeshes;
 
+    public Transform[] allWheelMeshes;
+
     void Start()
     {
         // Obtiene el componente Rigidbody
@@ -89,6 +91,21 @@ public class KartController : MonoBehaviour
                 wheel.motorTorque = 0; // no aplica fuerza motriz si queremos ir hacia atrás
                 wheel.brakeTorque = -moveVertical * speed; // hacia atrás
             }
+        }
+        for (int i = 0; i < wheelColliders.Length; i++)
+        {
+            // Obtén el WheelCollider y la malla de la rueda correspondiente
+            WheelCollider wheelCollider = wheelColliders[i];
+            Transform wheelMesh = allWheelMeshes[i];
+
+            // Obtén la posición y la rotación del WheelCollider
+            Vector3 position;
+            Quaternion rotation;
+            wheelCollider.GetWorldPose(out position, out rotation);
+
+            // Aplica la posición y la rotación a la malla de la rueda
+            wheelMesh.position = position;
+            wheelMesh.rotation = rotation;
         }
     }
 }
