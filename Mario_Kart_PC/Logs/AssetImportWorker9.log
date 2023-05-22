@@ -1,0 +1,333 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'es' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+58816
+Successfully changed project path to: C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
+C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [127648] Host "[IP] 192.168.85.84 [Port] 0 [Flags] 2 [Guid] 2129750945 [EditorId] 2129750945 [Version] 1048832 [Id] WindowsEditor(7,PC_de_Juan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [127648] Host "[IP] 192.168.85.84 [Port] 0 [Flags] 2 [Guid] 2129750945 [EditorId] 2129750945 [Version] 1048832 [Id] WindowsEditor(7,PC_de_Juan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 55.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tosty/Documents/Proyectos de Unity/KartPC/Mario_Kart_PC/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004305 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 181 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (258ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tosty\Documents\Proyectos de Unity\KartPC\Mario_Kart_PC\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (341.7 KB). Loaded Objects now: 3515.
+Memory consumption went from 113.4 MB to 113.0 MB.
+Total: 1.873600 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.067900 ms MarkObjects: 1.583700 ms  DeleteObjects: 0.066600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98136.714393 seconds.
+  path: Assets/Models/sin_nombre.fbx
+  artifactKey: Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sin_nombre.fbx using Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca922c25d210f4202558678eb1fe2268') in 0.115786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.781064 seconds.
+  path: Assets/Models/sin_nombre.fbx
+  artifactKey: Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sin_nombre.fbx using Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dbefb133dd9016fd0077bc5f30b858') in 0.035433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.295566 seconds.
+  path: Assets/Models/sin_nombre.fbx
+  artifactKey: Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sin_nombre.fbx using Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8dda09713e9ad4fae217ba343d4ce5') in 0.033114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.278624 seconds.
+  path: Assets/Models/sin_nombre.fbx
+  artifactKey: Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sin_nombre.fbx using Guid(3fe86c7056720ce48a0b66decab8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14acebff5e6b02245c433f44f623a0f0') in 0.035994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 974.221066 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Baby Luigi.png
+  artifactKey: Guid(923c35732af92ba4aa0e87d9fa8634ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Baby Luigi.png using Guid(923c35732af92ba4aa0e87d9fa8634ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b08fe1c7868aec7ef785783973e0865') in 0.030700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Metal Mario.png
+  artifactKey: Guid(2a0a319ed6c49264294a67fa57b10ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Metal Mario.png using Guid(2a0a319ed6c49264294a67fa57b10ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4abd8108a78172571d544a568d89230') in 0.013240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Pink Gold Peach.png
+  artifactKey: Guid(82ba37cda37b0a84dbf24312ca6af556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Pink Gold Peach.png using Guid(82ba37cda37b0a84dbf24312ca6af556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32fce2cdc06326832aeca8e3b952840') in 0.012805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi (Yellow).png
+  artifactKey: Guid(ef22cf5ad9a26b848a63b4de1a0493e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi (Yellow).png using Guid(ef22cf5ad9a26b848a63b4de1a0493e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbf95362ff0e49a93a405b5b93f55d0') in 0.014165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi (Blue).png
+  artifactKey: Guid(7938a0e15e9e52b43b0d35bec65431aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi (Blue).png using Guid(7938a0e15e9e52b43b0d35bec65431aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65e0b37b2e6d46be0cdb25926eb7fc5') in 0.011550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Toad.png
+  artifactKey: Guid(fce4a7394570e2d4e9cc698b9c11e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Toad.png using Guid(fce4a7394570e2d4e9cc698b9c11e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e94b30f754fe236938dffb55c1b4cf') in 0.012425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Toadette.png
+  artifactKey: Guid(6a44d5b29a1ebcd4bb15be3827a3a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Toadette.png using Guid(6a44d5b29a1ebcd4bb15be3827a3a277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19aaab1e93f8575dcd728d447dfd52af') in 0.011944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Baby Mario.png
+  artifactKey: Guid(928af8fd3a6417543af9af5781d03f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Baby Mario.png using Guid(928af8fd3a6417543af9af5781d03f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6666a0828d5530bca9f06750a30e8fec') in 0.011834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Dry Bowser.png
+  artifactKey: Guid(b4cfc485fecf4764ea9a94410f111541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Dry Bowser.png using Guid(b4cfc485fecf4764ea9a94410f111541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81501a0f889f2002fc312aa2e493cc4') in 0.012197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Shy Guy.png
+  artifactKey: Guid(dd12d926db9e69a4e9282c63852f163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Shy Guy.png using Guid(dd12d926db9e69a4e9282c63852f163d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2faa24ffdcc653f0696a578eb53f17') in 0.011798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Mii.png
+  artifactKey: Guid(bd735c66c2a60e04ebf03c6dd5652bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Mii.png using Guid(bd735c66c2a60e04ebf03c6dd5652bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6803393cdc33d0e7c08c049c7864a2fd') in 0.011839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Wario.png
+  artifactKey: Guid(d1157135f56f09a4785e84e05f914cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Wario.png using Guid(d1157135f56f09a4785e84e05f914cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1351a5ac1452719d6630f704b1d654') in 0.011635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi.png
+  artifactKey: Guid(30e601dd998a6094fb665effe2741389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi.png using Guid(30e601dd998a6094fb665effe2741389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6559bd8b41b90ed0e45f53938c5d30ae') in 0.013560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Roy.png
+  artifactKey: Guid(6df39f7340e514b4997ebb2bbd46fc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Roy.png using Guid(6df39f7340e514b4997ebb2bbd46fc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eba23af2b8ecc7d3c69414ed37512d1') in 0.012877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi (Pink).png
+  artifactKey: Guid(77427ffc8319f6e4e8c6227c4c3dba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Yoshi (Pink).png using Guid(77427ffc8319f6e4e8c6227c4c3dba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7be74831263a6dc68e83a88ba68d55') in 0.012982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Morton.png
+  artifactKey: Guid(8e51789e8e5f628448455b197b8ab57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Morton.png using Guid(8e51789e8e5f628448455b197b8ab57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2e6f9f1e08def0e9320da32df0330') in 0.013360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Isabelle.png
+  artifactKey: Guid(412fd02b940f83146908fbe5366004d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Isabelle.png using Guid(412fd02b940f83146908fbe5366004d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a81f063092cd99ad95199f3d36be6a') in 0.017065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Iggy.png
+  artifactKey: Guid(a614627f5e956954f916a66ee9060612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Iggy.png using Guid(a614627f5e956954f916a66ee9060612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c1f58fb28637a56f4d0322e4ade793') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Baby Rosalina.png
+  artifactKey: Guid(1080111f0ce4b1547972fbf373582627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Baby Rosalina.png using Guid(1080111f0ce4b1547972fbf373582627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332ff317ba1c6e315bd3794cc4817a98') in 0.013034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Rosalina.png
+  artifactKey: Guid(b7eb1699252b41047ae2bd789d0c2e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Rosalina.png using Guid(b7eb1699252b41047ae2bd789d0c2e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fa686aaafaec81cb8e15d34fbb1f03') in 0.013788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Ludwig.png
+  artifactKey: Guid(0652038a7e0093049b2be396177ed4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Ludwig.png using Guid(0652038a7e0093049b2be396177ed4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7c1dbab60b77f477ee786f196fd515') in 0.014037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Luigi.png
+  artifactKey: Guid(b07f8a219ae610248aca75f2d94f1772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Wii U - Mario Kart 8 - Standard Kart/Emblems/Luigi.png using Guid(b07f8a219ae610248aca75f2d94f1772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2282f1b3bcd2f4db0fdba1b71e240e52') in 0.014065 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
