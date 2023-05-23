@@ -71,3 +71,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 Mario_Kart_PC/[Aa]ssets/[Ss]treamingAssets/aa.meta
 Mario_Kart_PC/[Aa]ssets/[Ss]treamingAssets/aa/*
+Mario_Kart_PC/.vsconfig
+
+*.meta
