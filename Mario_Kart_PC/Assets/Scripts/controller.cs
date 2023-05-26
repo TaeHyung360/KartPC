@@ -15,9 +15,12 @@ public class controller : MonoBehaviour
     private inputManager IM;
     public WheelCollider[] wheels = new WheelCollider[4];
     public GameObject[] wheelMesh = new GameObject[4];
+    private GameObject centeOfMass;
     private Rigidbody rigidbody;
     public float KPH;
+    public float breakPower;
     public float radius = 6;
+    public float downForceValue = 50;
     public float torque = 200;
     public float steeringMax = 4;
     // Start is called before the first frame update
@@ -28,6 +31,7 @@ public class controller : MonoBehaviour
 
     private void FixedUpdate()
     {
+        addDownForce();
         animateWheels();
         moveVehicle();
         streerVehicle();
@@ -61,6 +65,15 @@ public class controller : MonoBehaviour
 
         KPH = rigidbody.velocity.magnitude * 3.6f;
 
+        if (IM.handbrake)
+        {
+            wheels[3].brakeTorque = wheels[2].brakeTorque = breakPower;
+        }
+        else
+        {
+            wheels[3].brakeTorque = wheels[2].brakeTorque = 0;
+        }
+
     }
 
     private void streerVehicle()
@@ -79,12 +92,6 @@ public class controller : MonoBehaviour
             wheels[0].steerAngle = 0;
             wheels[1].steerAngle = 0;
         }
-        /*
-        for (int i = 0; i < wheels.Length - 2; i++)
-        {
-            wheels[i].steerAngle = IM.horizontal * steeringMax;
-        }
-        */
     }
 
 
@@ -104,5 +111,12 @@ public class controller : MonoBehaviour
     {
        IM = GetComponent<inputManager>();
        rigidbody = GetComponent<Rigidbody>();
+       centeOfMass = GameObject.Find("Masa");
+        rigidbody.centerOfMass = centeOfMass.transform.localPosition;
+    }
+
+    private void addDownForce()
+    {
+        rigidbody.AddForce(-transform.up * downForceValue * rigidbody.velocity.magnitude);
     }
 }

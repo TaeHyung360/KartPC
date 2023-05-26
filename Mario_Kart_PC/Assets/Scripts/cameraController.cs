@@ -5,6 +5,7 @@ using UnityEngine;
 public class cameraController : MonoBehaviour
 {
     public GameObject Player ;
+    private controller RR;
     public GameObject chlild;
     private GameObject cameralookAt;
     public float speed;
@@ -14,10 +15,13 @@ public class cameraController : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         chlild = Player.transform.Find("Camera constaint").gameObject;
         cameralookAt = Player.transform.Find("Camera lookAt").gameObject;
+        RR = Player.GetComponent<controller>();
     }
     private void FixedUpdate()
     {
         follow();
+
+        speed = (RR.KPH >= 50) ? 20 : RR.KPH / 4;
     }
 
     private void follow()
