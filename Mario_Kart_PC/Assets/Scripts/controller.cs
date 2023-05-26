@@ -23,7 +23,8 @@ public class controller : MonoBehaviour
     public float downForceValue = 50;
     public float torque = 200;
     public float steeringMax = 4;
-    // Start is called before the first frame update
+
+    public float[] slip = new float[4];
     void Start()
     {
         getObjects();
@@ -35,6 +36,7 @@ public class controller : MonoBehaviour
         animateWheels();
         moveVehicle();
         streerVehicle();
+        getFriction();
     }
 
     private void moveVehicle()
@@ -118,5 +120,17 @@ public class controller : MonoBehaviour
     private void addDownForce()
     {
         rigidbody.AddForce(-transform.up * downForceValue * rigidbody.velocity.magnitude);
+    }
+
+    private void getFriction()
+    {
+        for(int i = 0; i < wheels.Length; i++)
+        {
+            WheelHit whellHit;
+
+            wheels[i].GetGroundHit(out whellHit);
+
+            slip[i] = whellHit.sidewaysSlip;
+        }
     }
 }
