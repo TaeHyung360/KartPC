@@ -15,6 +15,7 @@ public class controller : MonoBehaviour
     private inputManager IM;
     public WheelCollider[] wheels = new WheelCollider[4];
     public GameObject[] wheelMesh = new GameObject[4];
+    public float radius = 6;
     public float torque = 200;
     public float steeringMax = 4;
     // Start is called before the first frame update
@@ -60,10 +61,26 @@ public class controller : MonoBehaviour
 
     private void streerVehicle()
     {
+        if(IM.horizontal > 0)
+        {
+            wheels[0].steerAngle = Mathf.Rad2Deg * Mathf.Atan((float)(2.55f / (radius + (1.5 / 2)))) * IM.horizontal;
+            wheels[1].steerAngle = Mathf.Rad2Deg * Mathf.Atan((float)(2.55f / (radius - (1.5 / 2)))) * IM.horizontal;
+        }else if(IM.horizontal < 0)
+        {
+            wheels[0].steerAngle = Mathf.Rad2Deg * Mathf.Atan((float)(2.55f / (radius - (1.5 / 2)))) * IM.horizontal;
+            wheels[1].steerAngle = Mathf.Rad2Deg * Mathf.Atan((float)(2.55f / (radius + (1.5 / 2)))) * IM.horizontal;
+        }
+        else
+        {
+            wheels[0].steerAngle = 0;
+            wheels[1].steerAngle = 0;
+        }
+        /*
         for (int i = 0; i < wheels.Length - 2; i++)
         {
             wheels[i].steerAngle = IM.horizontal * steeringMax;
         }
+        */
     }
 
 
