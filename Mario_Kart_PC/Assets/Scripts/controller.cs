@@ -15,6 +15,8 @@ public class controller : MonoBehaviour
     private inputManager IM;
     public WheelCollider[] wheels = new WheelCollider[4];
     public GameObject[] wheelMesh = new GameObject[4];
+    private Rigidbody rigidbody;
+    public float KPH;
     public float radius = 6;
     public float torque = 200;
     public float steeringMax = 4;
@@ -56,6 +58,8 @@ public class controller : MonoBehaviour
                 wheels[i].motorTorque = IM.vertical * (torque / 2);
             }
         }
+
+        KPH = rigidbody.velocity.magnitude * 3.6f;
 
     }
 
@@ -99,5 +103,6 @@ public class controller : MonoBehaviour
     private void getObjects()
     {
        IM = GetComponent<inputManager>();
+       rigidbody = GetComponent<Rigidbody>();
     }
 }
