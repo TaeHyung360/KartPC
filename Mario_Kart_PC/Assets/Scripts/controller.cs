@@ -11,10 +11,11 @@ public class controller : MonoBehaviour
         allWheelDrive
     }
     [SerializeField]private driveType drive;
-
+    [Header("Variables")]
     private inputManager IM;
-    public WheelCollider[] wheels = new WheelCollider[4];
-    public GameObject[] wheelMesh = new GameObject[4];
+    private GameObject wheelMeshes, wheelColliders;
+    private WheelCollider[] wheels = new WheelCollider[4];
+    private GameObject[] wheelMesh = new GameObject[4];
     private GameObject centeOfMass;
     private Rigidbody rigidbody;
     public float KPH;
@@ -23,7 +24,7 @@ public class controller : MonoBehaviour
     public float downForceValue = 50;
     public float torque = 200;
     public float steeringMax = 4;
-
+    [Header("Debug")]
     public float[] slip = new float[4];
     void Start()
     {
@@ -96,7 +97,6 @@ public class controller : MonoBehaviour
         }
     }
 
-
     void animateWheels()
         {
             Vector3 wheelPosition = Vector3.zero;
@@ -109,12 +109,30 @@ public class controller : MonoBehaviour
                 wheelMesh [i].transform.rotation = wheelRotation;
             }
         }
+
     private void getObjects()
     {
        IM = GetComponent<inputManager>();
        rigidbody = GetComponent<Rigidbody>();
+        
+       wheelColliders = GameObject.Find("WheelsColliders");
+
+       wheelMeshes = GameObject.Find("WheelsMeshes");
+
+       wheels[0] = wheelColliders.transform.Find("0").gameObject.GetComponent<WheelCollider>();
+       wheels[1] = wheelColliders.transform.Find("1").gameObject.GetComponent<WheelCollider>();
+       wheels[2] = wheelColliders.transform.Find("2").gameObject.GetComponent<WheelCollider>();
+       wheels[3] = wheelColliders.transform.Find("3").gameObject.GetComponent<WheelCollider>();
+
+       
+       wheelMesh[0] = wheelMeshes.transform.Find("0").gameObject;
+       wheelMesh[1] = wheelMeshes.transform.Find("1").gameObject;
+       wheelMesh[2] = wheelMeshes.transform.Find("2").gameObject;
+       wheelMesh[3] = wheelMeshes.transform.Find("3").gameObject;
+
+
        centeOfMass = GameObject.Find("Masa");
-        rigidbody.centerOfMass = centeOfMass.transform.localPosition;
+       rigidbody.centerOfMass = centeOfMass.transform.localPosition;
     }
 
     private void addDownForce()
@@ -130,7 +148,7 @@ public class controller : MonoBehaviour
 
             wheels[i].GetGroundHit(out whellHit);
 
-            slip[i] = whellHit.sidewaysSlip;
+            slip[i] = whellHit.forwardSlip;
         }
     }
 }

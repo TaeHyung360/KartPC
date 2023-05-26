@@ -231,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 214126346}
   m_Layer: 0
-  m_Name: CollidersDeRuedas
+  m_Name: WheelsColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,23 +358,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 616107602}
+    m_TransformParent: {fileID: 1108299336}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.34862348
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.148
+      value: 1.2256293
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.25500107
+      value: -0.2992401
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalRotation.w
@@ -404,6 +404,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8463906010746669595, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: -6173481112548307615, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6
@@ -419,6 +423,10 @@ PrefabInstance:
     - target: {fileID: -6173481112548307615, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.503
+      objectReference: {fileID: 0}
+    - target: {fileID: -4851008743123692578, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
+      propertyPath: m_Name
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2517525094549356844, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalScale.x
@@ -450,7 +458,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: dbe8e0fb087ce6046a0cdb1048a95446, type: 2}
     - target: {fileID: 919132149155446097, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_Name
-      value: KartClassic_Wheels
+      value: WheelsMeshes
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_IsActive
@@ -475,6 +483,10 @@ PrefabInstance:
     - target: {fileID: 4965874914265776010, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849325169297292593, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
+      propertyPath: m_Name
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8432023918310153089, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_Enabled
@@ -503,6 +515,10 @@ PrefabInstance:
     - target: {fileID: 9158815817348120183, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.458
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199771071807924966, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
+      propertyPath: m_Name
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f71c27c3126c02141a6dffa0e4359289, type: 3}
@@ -567,7 +583,7 @@ GameObject:
   - component: {fileID: 528001899}
   - component: {fileID: 528001900}
   m_Layer: 2
-  m_Name: FrontRight
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -647,7 +663,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1108299336}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -683,11 +699,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1438253970}
   - {fileID: 825057477}
   - {fileID: 1979819938}
   m_Father: {fileID: 1108299336}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &616107603
 BoxCollider:
@@ -713,7 +728,7 @@ GameObject:
   - component: {fileID: 666739623}
   - component: {fileID: 666739624}
   m_Layer: 2
-  m_Name: FrontLeft
+  m_Name: 0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1977,7 +1992,7 @@ GameObject:
   - component: {fileID: 1034139410}
   - component: {fileID: 1034139411}
   m_Layer: 2
-  m_Name: LeftBack
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2193,22 +2208,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drive: 0
-  wheels:
-  - {fileID: 666739624}
-  - {fileID: 528001900}
-  - {fileID: 1034139411}
-  - {fileID: 1534989670}
-  wheelMesh:
-  - {fileID: 755457823}
-  - {fileID: 1092623084}
-  - {fileID: 466706962}
-  - {fileID: 1487150114}
   KPH: 0
   breakPower: 90000
   radius: 6
   downForceValue: 50
   torque: 1500
   steeringMax: 20
+  slip:
+  - 0
+  - 0
+  - 0
+  - 0
 --- !u!224 &1108299336
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2224,6 +2234,7 @@ RectTransform:
   - {fileID: 971077990}
   - {fileID: 1900860487}
   - {fileID: 214126346}
+  - {fileID: 1438253970}
   - {fileID: 616107602}
   - {fileID: 534816785}
   m_Father: {fileID: 0}
@@ -2900,7 +2911,7 @@ GameObject:
   - component: {fileID: 1534989671}
   - component: {fileID: 1534989670}
   m_Layer: 2
-  m_Name: RightBack
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
