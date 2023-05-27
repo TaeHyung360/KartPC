@@ -24,16 +24,44 @@ public class inputManager : MonoBehaviour
                 break;
             case driver.keyboard: keyboardDrive();
                 break;
-            case driver.mobile:
+            case driver.mobile: mobile();
                 break;
         }
         
     }
-
+    //=========================================================================================================================================
+    // Controles de PC
+    //=========================================================================================================================================
     private void keyboardDrive()
     {
         vertical = Input.GetAxis("Vertical");
         horizontal = Input.GetAxis("Horizontal");
         handbrake = (Input.GetAxis("Jump") != 0) ? true : false;
     }
+    //=========================================================================================================================================
+    // Controles de mobil
+    //=========================================================================================================================================
+    private void mobile()
+    {
+        horizontal = Input.acceleration.x;
+    }
+
+    public void accelerationDown()
+    {
+        vertical = -1;
+    }
+    public void accelerationUp()
+    {
+        vertical = 0;
+    }
+
+    public void brakeDown()
+    {
+        vertical = 1;
+    }
+    public void brakeUp()
+    {
+        vertical = 0;
+    }
+
 }
