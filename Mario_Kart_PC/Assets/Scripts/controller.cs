@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class controller : MonoBehaviour
 {
+    private PhotonView photonView;
+
     internal enum driveType
     {
         frontWheelDrive,
@@ -29,14 +32,22 @@ public class controller : MonoBehaviour
     void Start()
     {
         getObjects();
+        photonView = GetComponent<PhotonView>();
     }
 
     private void FixedUpdate()
     {
         addDownForce();
         animateWheels();
-        moveVehicle();
-        streerVehicle();
+        if(photonView.IsMine)
+        {
+            moveVehicle();
+            streerVehicle();
+        }
+        else
+        {
+            photonView.gameObject.GetComponentInChildren<Camera>().gameObject.SetActive(false);
+        }
         getFriction();
     }
 
