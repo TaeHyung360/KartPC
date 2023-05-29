@@ -16,8 +16,25 @@ public class inputManager : MonoBehaviour
     public bool handbrake;
 
 
+    private void Awake()
+    {
+        if (SystemInfo.deviceType == DeviceType.Desktop)
+        {
+            driveController = driver.keyboard;
+        }
+        else if (SystemInfo.deviceType == DeviceType.Handheld)
+        {
+            driveController = driver.mobile;
+        }
+        else
+        {
+            driveController = driver.AI;
+        }
+    }
+
     private void FixedUpdate()
     {
+
         switch (driveController)
         {
             case driver.AI:
@@ -48,7 +65,7 @@ public class inputManager : MonoBehaviour
 
     public void accelerationDown()
     {
-        vertical = -1;
+        vertical = 1;
     }
     public void accelerationUp()
     {
@@ -57,7 +74,7 @@ public class inputManager : MonoBehaviour
 
     public void brakeDown()
     {
-        vertical = 1;
+        vertical = -1;
     }
     public void brakeUp()
     {

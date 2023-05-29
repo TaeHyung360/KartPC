@@ -29,10 +29,16 @@ public class controller : MonoBehaviour
     public float steeringMax = 4;
     [Header("Debug")]
     public float[] slip = new float[4];
+
+    public GameObject camara;
     void Start()
     {
         getObjects();
         photonView = GetComponent<PhotonView>();
+        if (photonView.IsMine)
+        {
+            camara.SetActive(true);
+        }
     }
 
     private void FixedUpdate()
@@ -43,10 +49,6 @@ public class controller : MonoBehaviour
         {
             moveVehicle();
             streerVehicle();
-        }
-        else
-        {
-            photonView.gameObject.GetComponentInChildren<Camera>().gameObject.SetActive(false);
         }
         getFriction();
     }
